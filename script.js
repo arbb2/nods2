@@ -6,7 +6,7 @@ var mapbox = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var map = new L.Map('map', {
     layers: [mapbox],
-    center: [-29.8731313, -71.2344222],
+    center: [-29.9668006, -71.331511],
     zoom: 15,
     zoomControl: true
 });
