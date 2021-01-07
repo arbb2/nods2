@@ -145,7 +145,7 @@ var style11 = {
 		 }).addTo(map);  
 			  
 		  
-var  NOD_212 = L.geoJSON( NOD_212, {
+var  NOD_210 = L.geoJSON( NOD_210, {
     
 	onEachFeature: function (feature, layer) {
     layer.bindPopup(feature.properties.Nodo+'</p>');
